@@ -1,25 +1,18 @@
+---
+title: LBCharts
+---
+
 # LBCharts · 跨端行情技术分析图表
 
 > 自研行情技术分析图表，基于 C++ 编写，跨设备、跨平台支持，可运行在 iOS / Android / Desktop / Web 等多种设备和平台。
 
-**站点导航**：`[首页](/)` · `[功能能力](/features.html)` · `[平台支持](/platforms.html)` · `[路线图](/roadmap.html)` · `[官网链接](https://lbchart.com)`
+**导航**：`[首页](/)` · `[功能能力](/features.html)` · `[平台支持](/platforms.html)` · `[路线图](/roadmap.html)` · `[官网链接](https://lbchart.com)`
 
 [![Website](https://img.shields.io/badge/Website-lbchart.com-0ea5e9?style=for-the-badge)](https://lbchart.com)
 [![Language](https://img.shields.io/badge/Core-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus)](https://en.cppreference.com/w/)
 [![Platforms](https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20Desktop%20%7C%20Web-22c55e?style=for-the-badge)](#平台覆盖)
 
 ---
-
-## 目录
-
-- [项目简介](#项目简介)
-- [核心价值](#核心价值)
-- [快速入口](#快速入口)
-- [平台覆盖](#平台覆盖)
-- [内置能力](#内置能力)
-- [架构示意](#架构示意)
-- [里程碑](#里程碑)
-- [相关链接](#相关链接)
 
 ## 项目简介
 
@@ -34,30 +27,24 @@
 
 ## 快速入口
 
-- 首页：[`/`](/)
-- 功能能力：[`/features.html`](/features.html)
-- 平台支持：[`/platforms.html`](/platforms.html)
-- 路线图：[`/roadmap.html`](/roadmap.html)
+- 功能能力详情：[`/features.html`](/features.html)
+- 平台支持详情：[`/platforms.html`](/platforms.html)
+- 版本路线图：[`/roadmap.html`](/roadmap.html)
 
 ## 平台覆盖
 
 | 平台 | 状态 | 说明 |
 | --- | --- | --- |
-| iOS | ✅ 已支持 | 支持图表绘制、事件交互、配置控制。 |
-| Android | ✅ 已支持 | 支持图表绘制、事件交互、配置控制。 |
-| Desktop | ✅ 已支持 | 支持图表绘制、事件交互、配置控制。 |
-| Web | ✅ 已支持 | 可运行于现代浏览器，支持图表绘制、事件交互、配置控制。 |
+| iOS | ✅ 已上线 | 客户端替换完成 |
+| Android | ✅ 已上线 | 客户端替换完成 |
+| Desktop | ✅ 已上线 | 桌面端替换完成 |
+| Web | ✅ 支持 | 可运行于现代浏览器 |
 
 ## 内置能力
 
-### 指标与画线
-
 - 内置至少 **60+** 种常用指标：`KDJ`、`RSI`、`MACD`...
 - 丰富的画线类型：空间尺、3 线段、黄金分割...
-
-### 高级功能
-
-- 股票叠加、筹码分布、买卖点、行动点...
+- 丰富的内置功能：股票叠加、筹码分布、买卖点、行动点...
 - 内置多种主题，支持自定义组件配色。
 
 <details>
@@ -68,7 +55,6 @@
 - [x] 多端统一交互
 - [x] 主题切换
 - [ ] 指标市场扩展（规划中）
-- [ ] 云端配置中心（规划中）
 
 </details>
 
@@ -80,20 +66,9 @@ flowchart LR
     A --> C[Android Adapter]
     A --> D[Desktop Adapter]
     A --> E[Web Adapter]
-    A --> F[Indicator System]
-    A --> G[Drawing System]
-    A --> H[Theme System]
 ```
-
-## 里程碑
-
-1. 完成手机端图表替换并上线。
-2. 完成桌面端图表替换并上线。
-3. 形成统一配置驱动的多端图表能力。
 
 ## 相关链接
 
 - 跨端图表 **LBCharts**：<https://lbchart.com>
-
----
-
+- GitHub Pages 首页：<https://lbchart.com>
