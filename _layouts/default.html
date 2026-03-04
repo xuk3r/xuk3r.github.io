@@ -20,16 +20,24 @@
         max-width: 980px;
         margin: 0 auto;
         padding: 32px;
-        background: #f5ecd9;
-        color: #1f2937;
+        background: #1f2937;
+        color: #f5ecd9;
       }
       .markdown-body a {
-        color: #334155;
+        color: #f5ecd9;
       }
       .markdown-body h1,
       .markdown-body h2,
       .markdown-body h3 {
-        color: #111827;
+        color: #f5ecd9;
+      }
+      .markdown-body hr,
+      .markdown-body table th,
+      .markdown-body table td {
+        border-color: #f5ecd9;
+      }
+      .markdown-body .mermaid {
+        margin: 16px 0;
       }
       @media (max-width: 767px) {
         .markdown-body {
@@ -42,8 +50,27 @@
     <article class="markdown-body">
       {{ content }}
     </article>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: "dark",
+        securityLevel: "loose"
+      });
+
+      document.querySelectorAll("pre > code.language-mermaid").forEach((codeBlock) => {
+        const pre = codeBlock.parentElement;
+        const container = document.createElement("div");
+        container.className = "mermaid";
+        container.textContent = codeBlock.textContent;
+        pre.replaceWith(container);
+      });
+
+      mermaid.run({
+        querySelector: ".mermaid"
+      });
+
       anchors.add();
     </script>
   </body>
