@@ -1,5 +1,6 @@
 ---
 title: LBCharts 路线图
+layout: default
 ---
 
 # LBCharts 路线图

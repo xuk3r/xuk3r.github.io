@@ -1,5 +1,6 @@
 ---
 title: LBCharts 功能能力
+layout: default
 ---
 
 # LBCharts 功能能力

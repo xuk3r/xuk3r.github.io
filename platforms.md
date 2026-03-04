@@ -1,5 +1,6 @@
 ---
 title: LBCharts 平台支持
+layout: default
 ---
 
 # LBCharts 平台支持
