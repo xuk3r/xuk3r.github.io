@@ -2,7 +2,7 @@
 
 > 自研行情技术分析图表，基于 C++ 编写，跨设备、跨平台支持，可运行在 iOS / Android / Desktop / Web 等多种设备和平台。
 
-**站点导航**：`[首页](/)` · `[功能能力](/features.html)` · `[平台支持](/platforms.html)` · `[路线图](/roadmap.html)` · `[官网链接](https://lbchart.com)`
+**站点导航**：[首页](/) · [功能能力](/features.html) · [平台支持](/platforms.html) · [路线图](/roadmap.html) · [官网链接](https://lbchart.com)
 
 [![Website](https://img.shields.io/badge/Website-lbchart.com-0ea5e9?style=for-the-badge)](https://lbchart.com)
 [![Language](https://img.shields.io/badge/Core-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus)](https://en.cppreference.com/w/)

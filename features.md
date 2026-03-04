@@ -4,7 +4,7 @@ title: LBCharts 功能能力
 
 # LBCharts 功能能力
 
-**导航**：`[首页](/)` · `[功能能力](/features.html)` · `[平台支持](/platforms.html)` · `[路线图](/roadmap.html)` · `[官网链接](https://lbchart.com)`
+**导航**：[首页](/) · [功能能力](/features.html) · [平台支持](/platforms.html) · [路线图](/roadmap.html) · [官网链接](https://lbchart.com)
 
 ---
 
