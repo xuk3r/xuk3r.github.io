@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1f2937">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/svg+xml" sizes="16x16 32x32" href="/favicon-small.svg">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.8.1/github-markdown-light.min.css">
     <style>
       body {
         margin: 0;
-        background: #f5ecd9;
+        background: #1f2937;
       }
       .markdown-body {
         box-sizing: border-box;
@@ -18,7 +20,16 @@
         max-width: 980px;
         margin: 0 auto;
         padding: 32px;
-        background: #fffaf0;
+        background: #f5ecd9;
+        color: #1f2937;
+      }
+      .markdown-body a {
+        color: #334155;
+      }
+      .markdown-body h1,
+      .markdown-body h2,
+      .markdown-body h3 {
+        color: #111827;
       }
       @media (max-width: 767px) {
         .markdown-body {
