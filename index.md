@@ -7,9 +7,9 @@ layout: default
 
 > 自研行情技术图表，基于 C++ 编写，跨设备、跨平台支持，可运行在 iOS / Android / Desktop / Web 等多种设备和平台。
 
-**导航**：[首页](/) · [功能能力](/features.html) · [平台支持](/platforms.html) · [路线图](/roadmap.html) · [官网链接](https://lbchart.com)
+**导航**：[首页](/) · [功能能力](/features.html) · [平台支持](/platforms.html) · [路线图](/roadmap.html) · [官网链接](http://lbchart.com)
 
-[![Website](https://img.shields.io/badge/Website-lbchart.com-0ea5e9?style=for-the-badge)](https://lbchart.com)
+[![Website](https://img.shields.io/badge/Website-lbchart.com-0ea5e9?style=for-the-badge)](http://lbchart.com)
 [![Language](https://img.shields.io/badge/Core-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus)](https://en.cppreference.com/w/)
 [![Platforms](https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20Desktop%20%7C%20Web-22c55e?style=for-the-badge)](#平台覆盖)
 
@@ -71,5 +71,5 @@ flowchart LR
 
 ## 相关链接
 
-- 跨端图表 **LBCharts**：<https://lbchart.com>
-- GitHub Pages 首页：<https://lbchart.com>
+- 跨端图表 **LBCharts**：<http://lbchart.com>
+- GitHub Pages 首页：<http://lbchart.com>

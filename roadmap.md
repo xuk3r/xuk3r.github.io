@@ -5,7 +5,7 @@ layout: default
 
 # LBCharts 路线图
 
-**导航**：[首页](/) · [功能能力](/features.html) · [平台支持](/platforms.html) · [路线图](/roadmap.html) · [官网链接](https://lbchart.com)
+**导航**：[首页](/) · [功能能力](/features.html) · [平台支持](/platforms.html) · [路线图](/roadmap.html) · [官网链接](http://lbchart.com)
 
 ---
 
