@@ -1,6 +1,6 @@
 <template>
     <div class="banner">
-        <h1>LBCharts</h1>
+        <h1>LBChart</h1>
         <div class="banner-description">
             自研行情技术分析图表，基于 C++ 编写，跨设备、跨平台支持，<br class="hidden sm:block" />
             可运行在 iOS / Android / Desktop / Web 等多种设备和平台。

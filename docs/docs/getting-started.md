@@ -5,7 +5,7 @@ order: 2
 
 # 快速开始
 
-本文介绍如何将 LBCharts 集成到你的项目中。
+本文介绍如何将 LBChart 集成到你的项目中。
 
 ## 环境要求
 
@@ -22,10 +22,10 @@ order: 2
 cmake_minimum_required(VERSION 3.16)
 project(MyApp)
 
-find_package(LBCharts REQUIRED)
+find_package(LBChart REQUIRED)
 
 add_executable(MyApp main.cpp)
-target_link_libraries(MyApp PRIVATE LBCharts::LBCharts)
+target_link_libraries(MyApp PRIVATE LBChart::LBChart)
 ```
 
 ### iOS
@@ -34,7 +34,7 @@ target_link_libraries(MyApp PRIVATE LBCharts::LBCharts)
 
 ```ruby
 # Podfile
-pod 'LBCharts', '~> 1.0'
+pod 'LBChart', '~> 1.0'
 ```
 
 ### Android
@@ -57,21 +57,21 @@ dependencies {
 
 int main() {
     // 创建图表实例
-    auto chart = LBCharts::Chart::create();
+    auto chart = LBChart::Chart::create();
 
     // 配置图表类型
-    chart->setChartType(LBCharts::ChartType::Candlestick);
+    chart->setChartType(LBChart::ChartType::Candlestick);
 
     // 设置主题
-    chart->setTheme(LBCharts::Theme::Dark);
+    chart->setTheme(LBChart::Theme::Dark);
 
     // 加载数据
     auto data = loadKLineData(); // 你的数据加载逻辑
     chart->setData(data);
 
     // 添加指标
-    chart->addIndicator(LBCharts::Indicator::MACD);
-    chart->addIndicator(LBCharts::Indicator::RSI);
+    chart->addIndicator(LBChart::Indicator::MACD);
+    chart->addIndicator(LBChart::Indicator::RSI);
 
     // 渲染
     chart->render();

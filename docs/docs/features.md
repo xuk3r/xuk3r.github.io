@@ -40,13 +40,13 @@ order: 3
 
 ```cpp
 // 添加指标
-chart->addIndicator(LBCharts::Indicator::MACD, {
+chart->addIndicator(LBChart::Indicator::MACD, {
     .fastPeriod = 12,
     .slowPeriod = 26,
     .signalPeriod = 9,
 });
 
-chart->addIndicator(LBCharts::Indicator::KDJ, {
+chart->addIndicator(LBChart::Indicator::KDJ, {
     .n = 9,
     .m1 = 3,
     .m2 = 3,
@@ -65,10 +65,10 @@ chart->addIndicator(LBCharts::Indicator::KDJ, {
 
 ```cpp
 // 添加画线工具
-chart->setDrawingTool(LBCharts::DrawingTool::TrendLine);
+chart->setDrawingTool(LBChart::DrawingTool::TrendLine);
 
 // 监听画线完成事件
-chart->onDrawingComplete([](const LBCharts::Drawing& drawing) {
+chart->onDrawingComplete([](const LBChart::Drawing& drawing) {
     // 处理画线结果
 });
 ```
@@ -91,11 +91,11 @@ chart->onDrawingComplete([](const LBCharts::Drawing& drawing) {
 
 ```cpp
 // 切换主题
-chart->setTheme(LBCharts::Theme::Dark);   // 深色主题
-chart->setTheme(LBCharts::Theme::Light);  // 浅色主题
+chart->setTheme(LBChart::Theme::Dark);   // 深色主题
+chart->setTheme(LBChart::Theme::Light);  // 浅色主题
 
 // 自定义主题
-LBCharts::ThemeConfig custom;
+LBChart::ThemeConfig custom;
 custom.upColor = "#ef4444";    // 上涨颜色
 custom.downColor = "#22c55e";  // 下跌颜色
 custom.background = "#1a1a2e"; // 背景色

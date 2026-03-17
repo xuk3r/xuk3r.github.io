@@ -5,7 +5,7 @@ order: 4
 
 # 平台支持
 
-LBCharts 基于 C++ 核心实现，通过平台适配层在不同终端复用同一套图表能力。
+LBChart 基于 C++ 核心实现，通过平台适配层在不同终端复用同一套图表能力。
 
 ## 覆盖范围
 
@@ -26,21 +26,21 @@ source 'https://cdn.cocoapods.org/'
 platform :ios, '13.0'
 
 target 'YourApp' do
-  pod 'LBCharts', '~> 1.0'
+  pod 'LBChart', '~> 1.0'
 end
 ```
 
 ### Swift 示例
 
 ```swift
-import LBCharts
+import LBChart
 
 class ChartViewController: UIViewController {
-    private var chartView: LBChartsView!
+    private var chartView: LBChartView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        chartView = LBChartsView(frame: view.bounds)
+        chartView = LBChartView(frame: view.bounds)
         chartView.chartType = .candlestick
         chartView.theme = .dark
         view.addSubview(chartView)
@@ -65,7 +65,7 @@ dependencies {
 ### Kotlin 示例
 
 ```kotlin
-import com.longbridge.lbcharts.LBChartsView
+import com.longbridge.lbcharts.LBChartView
 import com.longbridge.lbcharts.ChartType
 import com.longbridge.lbcharts.Theme
 
@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val chartView = LBChartsView(this).apply {
+        val chartView = LBChartView(this).apply {
             chartType = ChartType.CANDLESTICK
             theme = Theme.DARK
             loadData(klineData)
@@ -94,9 +94,9 @@ class MainActivity : AppCompatActivity() {
 int main(int argc, char* argv[]) {
     QApplication app(argc, argv);
 
-    auto* chartWidget = new LBCharts::QtWidget();
-    chartWidget->setChartType(LBCharts::ChartType::Candlestick);
-    chartWidget->setTheme(LBCharts::Theme::Dark);
+    auto* chartWidget = new LBChart::QtWidget();
+    chartWidget->setChartType(LBChart::ChartType::Candlestick);
+    chartWidget->setTheme(LBChart::Theme::Dark);
     chartWidget->resize(1200, 800);
     chartWidget->show();
 
@@ -117,8 +117,8 @@ int main(int argc, char* argv[]) {
 <body>
   <canvas id="chart" width="1200" height="600"></canvas>
   <script>
-    LBCharts.init().then(() => {
-      const chart = new LBCharts.Chart('chart');
+    LBChart.init().then(() => {
+      const chart = new LBChart.Chart('chart');
       chart.setType('candlestick');
       chart.setTheme('dark');
       chart.loadData(klineData);

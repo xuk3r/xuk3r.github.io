@@ -20,7 +20,7 @@ const sidebar = generateSidebar([
 
 // https://vitepress.dev/reference/site-config
 const config: UserConfig = {
-  title: "LBCharts",
+  title: "LBChart",
   base: "/",
   description:
     "跨端行情技术图表引擎，基于 C++ 编写，跨设备、跨平台支持，可运行在 iOS / Android / Desktop / Web 等多种设备和平台。",
@@ -52,7 +52,7 @@ const config: UserConfig = {
       dark: "/logo-dark.svg",
     },
     footer: {
-      message: `LBCharts is developed by <a href='https://longbridge.com' target='_blank'>Longbridge</a>.`,
+      message: `LBChart is developed by <a href='https://longbridge.com' target='_blank'>Longbridge</a>.`,
       copyright: `
         <a href="http://lbchart.com" target="_blank">lbchart.com</a>
         |

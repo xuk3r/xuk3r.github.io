@@ -14,7 +14,7 @@ import Index from './index.vue'
 
 ```cpp
 // 初始化图表
-auto chart = LBCharts::create();
+auto chart = LBChart::create();
 chart->setType(ChartType::Candlestick);
 chart->setTheme(Theme::Dark);
 chart->loadData(klineData);
@@ -23,12 +23,12 @@ chart->render();
 
 ## 安装与集成
 
-LBCharts 以 C++ 库的形式提供，支持 CMake 集成：
+LBChart 以 C++ 库的形式提供，支持 CMake 集成：
 
 ```cmake
 # CMakeLists.txt
-find_package(LBCharts REQUIRED)
-target_link_libraries(your_target PRIVATE LBCharts::LBCharts)
+find_package(LBChart REQUIRED)
+target_link_libraries(your_target PRIVATE LBChart::LBChart)
 ```
 
 各平台集成详情请参考 [快速开始](/docs/getting-started) 文档。
