@@ -8,6 +8,7 @@
         <div class="actions">
             <a href="docs/getting-started" class="btn-primary">快速开始</a>
             <a href="docs/features"><BarChart3 /> 功能能力</a>
+            <a href="https://longbridge.com/zh-CN/quote/NVDA.US/news" target="_blank"><PlayCircle /> Demo</a>
             <a href="http://lbchart.com" target="_blank"><ExternalLink /> 官网</a>
         </div>
         <div class="version">
@@ -97,6 +98,7 @@ import {
     Layers,
     Settings,
     ExternalLink,
+    PlayCircle,
 } from "lucide-vue-next";
 </script>
 
