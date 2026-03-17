@@ -1,0 +1,11 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" fill="none" opacity="0.1">
+  <!-- Abstract grid/component background -->
+  <rect x="10" y="10" width="80" height="50" rx="4" stroke="#888" stroke-width="1"/>
+  <rect x="110" y="10" width="80" height="50" rx="4" stroke="#888" stroke-width="1"/>
+  <rect x="210" y="10" width="80" height="50" rx="4" stroke="#888" stroke-width="1"/>
+  <rect x="10" y="80" width="80" height="50" rx="4" stroke="#888" stroke-width="1"/>
+  <rect x="110" y="80" width="80" height="50" rx="4" stroke="#888" stroke-width="1"/>
+  <rect x="210" y="80" width="80" height="50" rx="4" stroke="#888" stroke-width="1"/>
+  <rect x="10" y="150" width="80" height="40" rx="4" stroke="#888" stroke-width="1"/>
+  <rect x="110" y="150" width="180" height="40" rx="4" stroke="#888" stroke-width="1"/>
+</svg>
